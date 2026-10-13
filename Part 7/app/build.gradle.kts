@@ -20,7 +20,7 @@ val verificationEndpoint = configuredValue("JARVIS_VERIFICATION_ENDPOINT").orEmp
 val releaseSigningReady = listOf(releaseStorePath, releaseStorePassword, releaseKeyAlias, releaseKeyPassword).all { !it.isNullOrBlank() }
 
 android {
-    namespace = "com.jarvis.assistant"
+    namespace = "com.friday.assistant"
     compileSdk = 34
 
     defaultConfig {
