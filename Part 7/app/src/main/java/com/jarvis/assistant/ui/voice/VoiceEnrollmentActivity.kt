@@ -1,4 +1,4 @@
-package com.friday.assistant.ui.voice
+package com.jarvis.assistant.ui.voice
 
 import android.Manifest
 import android.annotation.SuppressLint
