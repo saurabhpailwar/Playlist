@@ -1,4 +1,4 @@
-package com.jarvis.assistant.ui.voice
+package com.friday.assistant.ui.voice
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -33,9 +33,9 @@ class VoiceEnrollmentActivity : AppCompatActivity() {
     private val preferences by lazy { JarvisApp.instance.preferences }
 
     private val samplePrompts = listOf(
-        "\"Hey Jarvis, wake up\"",
-        "\"Jarvis, turn on the flashlight\"",
-        "\"Jarvis, what is the weather today?\""
+        "\"Hey Friday, wake up\"",
+        "\"Friday, turn on the flashlight\"",
+        "\"Friday, what is the weather today?\""
     )
 
     private val recordedVectors = mutableListOf<FloatArray>()
