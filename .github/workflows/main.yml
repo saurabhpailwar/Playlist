@@ -31,7 +31,7 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Friday-AI-APK
+          name: Jarvis-AI-APK
           path: 'Part 7/app/build/outputs/apk/debug/*.apk'
           if-no-files-found: error
           
