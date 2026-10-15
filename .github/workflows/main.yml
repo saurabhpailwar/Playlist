@@ -25,9 +25,15 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      - name: Check project files
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 4 -name gradlew -type f
+
       - name: Build Android APK
         run: |
-          chmod +x gradlew
+          chmod +x ./gradlew
           ./gradlew assembleDebug
 
       - name: Upload APK
