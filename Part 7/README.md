@@ -1,4 +1,4 @@
-# JARVIS Voice Assistant
+# FRIDAY Voice Assistant
 
 An Android voice assistant built with Kotlin, Gemini Live, on-device voice components, accessibility automation, screen capture, and a native Android UI.
 
