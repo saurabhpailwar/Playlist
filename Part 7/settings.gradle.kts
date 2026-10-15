@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FRIDAY-Part-7"
+rootProject.name = "JARVIS-Part-7"
 include(":app")
