@@ -1,4 +1,4 @@
-# 🤖 JARVIS Voice Assistant - Complete Tutorial Playlist (Parts 1 to 7)
+# 🤖 FRIDAY Voice Assistant - Complete Tutorial Playlist (Parts 1 to 7)
 
 [![License: Custom](https://img.shields.io/badge/License-Tech_GPTx_Attribution-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B-green.svg)](https://developer.android.com)
