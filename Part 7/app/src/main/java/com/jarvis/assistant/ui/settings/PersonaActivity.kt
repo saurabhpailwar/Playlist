@@ -101,7 +101,7 @@ class PersonaActivity : AppCompatActivity() {
     private fun updatePersonaPreview() {
         if (!::binding.isInitialized) return
         val persona = when (currentSelectedPersona) {
-            GeminiConstants.PERSONALITY_GIRLFRIEND -> "Pari"
+            GeminiConstants.PERSONALITY_GIRLFRIEND -> "FRIDAY"
             GeminiConstants.PERSONALITY_BOYFRIEND -> "Kabir"
             GeminiConstants.PERSONALITY_TECHGPT_X -> "TechGPT X"
             else -> "Jarvis Pro"
@@ -145,7 +145,7 @@ class PersonaActivity : AppCompatActivity() {
         preferences.personality = currentSelectedPersona
 
         val personaDisplayName = when (currentSelectedPersona) {
-            GeminiConstants.PERSONALITY_GIRLFRIEND -> "Pari (Girlfriend Mode)"
+            GeminiConstants.PERSONALITY_GIRLFRIEND -> "FRIDAY AI"
             GeminiConstants.PERSONALITY_BOYFRIEND -> "Kabir (Boyfriend Mode)"
             GeminiConstants.PERSONALITY_TECHGPT_X -> "TechGPT X Neural Core"
             else -> "Jarvis Pro"
